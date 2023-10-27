@@ -1285,7 +1285,11 @@ function _Chat() {
           />
         </div>
 
-        < div style = { { display : 'inline-block' , VerticalAlign : 'middle' , fontSize : '12px' , textAlign : 'center' , width : '100%' , position : ' absolute' } } > <样式 = { { color : '#585e6d' , textDecoration : 'none' , cursor : 'pointer' } } href = "https://beian.miit.gov.cn/" target = "_blank" > ICP备案 豫ICP备2021006359号-1 </a> </div>
+        <div style={{ display: 'inline-block', verticalAlign: 'middle', fontSize: '12px', textAlign: 'center', width: '100%', position: 'absolute' }}>
+          <a style={{ color: '#585e6d', textDecoration: 'none', cursor: 'pointer' }} href="https://beian.miit.gov.cn/" target="_blank">
+              ICP备案 豫ICP备2021006359号-1
+          </a>
+        </div>
       </div>
 
       {showExport && (
